@@ -1,4 +1,7 @@
 export class GroupsController {
-  constructor () {
+  constructor ($scope, Group) {
+    'ngInject';
+
+    Group.query().then(groups => $scope.groups = groups);
   }
 }

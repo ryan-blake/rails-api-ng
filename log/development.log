@@ -365,3 +365,82 @@ ActionController::RoutingError (No route matches [GET] "/api/foo"):
   Rendered /Users/admin/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
   Rendered /Users/admin/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
   Rendered /Users/admin/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (44.3ms)
+
+
+Started GET "/api/groups" for 127.0.0.1 at 2016-08-21 19:39:47 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GroupsController#index as JSON
+  [1m[35mGroup Load (3.6ms)[0m  SELECT "groups".* FROM "groups"
+Completed 200 OK in 15ms (Views: 4.6ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/api/groups" for 127.0.0.1 at 2016-08-21 19:39:58 -0500
+Processing by GroupsController#index as JSON
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/groups" for 127.0.0.1 at 2016-08-21 19:40:08 -0500
+Processing by GroupsController#index as JSON
+  [1m[35mGroup Load (0.9ms)[0m  SELECT "groups".* FROM "groups"
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/groups" for 127.0.0.1 at 2016-08-21 19:40:50 -0500
+Processing by GroupsController#index as JSON
+  [1m[36mGroup Load (0.5ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/groups" for 127.0.0.1 at 2016-08-21 19:40:51 -0500
+Processing by GroupsController#index as JSON
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/groups" for 127.0.0.1 at 2016-08-21 19:41:27 -0500
+Processing by GroupsController#index as JSON
+  [1m[36mGroup Load (1.4ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/api/groups" for 127.0.0.1 at 2016-08-21 19:42:46 -0500
+Processing by GroupsController#index as JSON
+  [1m[35mGroup Load (1.1ms)[0m  SELECT "groups".* FROM "groups"
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/groups" for 127.0.0.1 at 2016-08-21 19:42:59 -0500
+Processing by GroupsController#index as JSON
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/groups" for 127.0.0.1 at 2016-08-21 19:43:05 -0500
+Processing by GroupsController#index as JSON
+  [1m[35mGroup Load (1.1ms)[0m  SELECT "groups".* FROM "groups"
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/groups" for 127.0.0.1 at 2016-08-21 19:52:08 -0500
+Processing by GroupsController#index as JSON
+  [1m[36mGroup Load (0.4ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/groups" for 127.0.0.1 at 2016-08-21 19:52:48 -0500
+Processing by GroupsController#index as JSON
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/groups" for 127.0.0.1 at 2016-08-21 19:53:04 -0500
+Processing by GroupsController#index as JSON
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/groups" for 127.0.0.1 at 2016-08-21 19:53:10 -0500
+Processing by GroupsController#index as JSON
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
